@@ -1,0 +1,47 @@
+body {
+  height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(195, 239, 250);
+}
+
+span {
+  color: #064663;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+#img-1 {
+  width: 50px;
+}
+
+#img-2 {
+  width: 200px;
+}
+
+#feature {
+  background-color: rgb(195, 239, 250);
+}
+
+@media (min-width: 600px) {
+  #img-1 {
+    width: 80px;
+  }
+  #img-2 {
+    width: 400px;
+  }
+}
